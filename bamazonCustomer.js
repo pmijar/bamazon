@@ -87,7 +87,7 @@ function menu(max_id) {
                   throw err;
                 }
                 console.log("Order Fulfilled !!");
-                console.log("Payment amount due :: " + (price * answer.Units));
+                console.log("Payment amount due :: " + (price * answer.Units).toFixed(2));
               }
             )
           }
