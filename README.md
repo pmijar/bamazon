@@ -2,7 +2,7 @@
 The app will take in orders from customers and deplete stock from the store's inventory. 
 
 
-## Pre-requisistes on set up ##
+## Pre-requisites on set up ##
 
 Pre-requisite:
 Have git installed in your machine and have a github profile created to pull this code. 
