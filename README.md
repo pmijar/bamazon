@@ -15,21 +15,21 @@ Windows user need to install Gitbash for mac users use mac Terminal application.
 5. You should be able to use the Train schedular application.
 6. First you need to create a MySQL Database called `bamazon` in your localhost:port or a hosted server:port.
     SQL script to create the `bamazon` database
-    * Script: _CREATE DATABASE bamazon_;
+    * Script: __CREATE DATABASE bamazon;__
 7. Then create a Table inside of that database called `products` with following columns:
    * item_id (unique id for each product)
    * product_name (Name of product)
    * department_name
    * price (cost to customer)
-   * stock_quantity (how much of the product is available in stores)
-   * Script:     _create table products(_
-                _item_id INT NOT NULL,_
-                _product_name varchar(100),_
-                _department_name varchar(100),_
-                _price decimal(10,2),_
-                _stock_quantity integer(10),_
-                _PRIMARY KEY (item_id)_
-                );_
+   * stock_quantity (how much of the product is available in stores) 
+   * Script:    __create table products(__
+                __item_id INT NOT NULL,__
+                __product_name varchar(100),__
+                __department_name varchar(100),__
+                __price decimal(10,2),__
+                __stock_quantity integer(10),__
+                __PRIMARY KEY (item_id)__
+                __);__
 8. Populate this database with few different products. (i.e. Insert "mock" data rows into this database and table).
 
 
